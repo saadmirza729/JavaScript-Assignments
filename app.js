@@ -10,5 +10,12 @@ alert("Error! Please enter a valid password")
 
 // Solution of Question # 3
 
+alert("Welcome to JS Land... \nHappy Coding!")
+
+// Solution of Question # 4
+
+alert("Welcome to JS Land");
+alert("Happy Coding!");
+
 
 
