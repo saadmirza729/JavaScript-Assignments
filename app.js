@@ -246,7 +246,20 @@
 
 // Solution of Question # 9
 
+// var usDollor = 104.80;
+// var SaudiRiyal = 28;
 
+// usDollor = usDollor * 10;
+
+// SaudiRiyal = SaudiRiyal * 25;
+
+// var PKR = usDollor + SaudiRiyal
+
+// document.write("<h1>Currency in PKR</h1> <br><br>")
+
+// document.write("Total Currency in PKR: " + PKR)
+
+// Solution of Question # 10
 
 
 
