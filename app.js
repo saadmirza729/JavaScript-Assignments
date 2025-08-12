@@ -142,6 +142,118 @@
 // document.write("<br> Variable names should not be JS keywords");
 
 
+// --------------------------------------------------------------------------
+
+// Chapter # 5 ------
+
+
+// Solution of Question # 1
+
+// var num1 = 3;
+// var num2 = 5;
+// var num3 = num1 + num2;
+
+// document.write(num3)
+
+// Solution of Question # 2
+
+// var num1 = 3;
+// var num2 = 2;
+// var num3 = 40;
+// var num4 = 2
+// var num5 = 2
+// var mainNum = num1 - num2 * num3 / num4 % num5;
+
+// document.write(mainNum)
+
+// Solution of Question # 3
+
+//  var num1;
+
+//  document.write("Value after variable declaration is"  + " " + num1)
+
+//  num1 = 5;
+
+//  document.write("<br> Initial value:" + " " + num1)
+
+//  num1 = ++num1
+
+//  document.write("<br> Value after increment is:" + " " + num1)
+
+//  num1 = num1 + 7;
+
+//  document.write("<br> Value after addition is:" + " " + num1)
+
+//  num1 = --num1;
+
+//  document.write("<br> Value after decrement is:" + " " + num1)
+
+//  num1 = num1 % 2
+
+//  document.write("<br> The remainder is:" + " " + num1)
+
+// Solution of Question # 4
+
+// var ticket = 600;
+// ticket = ticket * 5;
+
+// document.write("Total cost to buy 5 tickets to a movie is" + " " + ticket + " PKR" )
+
+// Solution of Question # 5
+
+// var number = 4;
+
+// document.write("Table of" + " " + number + "<br> <br>");
+
+// for (var table = 1; table <= 10; table++ ) {
+
+//     document.write(number + " x " + table + " = " + (number * table) + "<br>")
+// }
+
+
+// Solution of Question # 6
+
+// -----
+
+// Solution of Question # 7
+
+// var item1 = 650;
+// var item2 = 3;
+// var item3 = 100;
+// var item4 = 7;
+// var item5 = 100;
+
+// document.write("<h1> Shopping Cart </h1> <br><br>")
+// document.write("Price of item 1 is " + item1)
+// document.write("<br> Quentity of item 1 is " + item2)
+// document.write("<br> Price of item 2 is " + item3)
+// document.write("<br> Quentity of item 2 is " + item4)
+// document.write("<br>Shipping Charges " + item5)
+
+// var total = item1 * item2 + item3 * item4 + item5;
+
+// document.write("<br> <br>Total cost of your order is " + total)
+
+// Solution of Question # 8
+
+// var TotalMarks = 980;
+// var MarksObtained = 804;
+
+// document.write("<h1> Marks Sheet </h1>")
+// document.write("Total Marks: " + TotalMarks)
+// document.write("<br> Marks Obtained: " + MarksObtained)
+// document.write("<br> Percentage: "  + MarksObtained * 100 / TotalMarks + "%")
+
+// Solution of Question # 9
+
+
+
+
+
+
+
+
+
 
 
 
