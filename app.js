@@ -262,13 +262,85 @@
 // Solution of Question # 10
 
 
+// --------------------------------------------------------------------------
+
+// Chapter # 6 - 9 ------
+
+// Solution of Question # 1
 
 
+// var a = 10;
+
+// document.write("Result: <br>");
+// document.write("The value of a is: " + a + "<br><br><br>")
+
+// a = ++a;
+
+// document.write("The value of ++a is: " + a)
+// document.write("<br> Now the value of a is: " + a + "<br><br>")
+
+// a = a++;
+
+// document.write("The value of a++ is: " + a)
+
+// a = ++a;
+
+// document.write("<br> Now the value of a is: " + a + "<br> <br>")
+
+// a = --a;
+
+// document.write("The value of --a is: " + a)
+// document.write("<br> Now the value of a is: " + a + "<br><br>")
+
+// a = a--;
+
+// document.write("The value of a-- is: " + a)
+
+// a = --a;
+
+// document.write("<br> Now the value of a is: " + a + "<br><br>")
 
 
+// Solution of Question # 2
 
 
+// var a = 2; 
+// var b = 1;
+
+// var result = --a - --b + ++b + b--
+// //            1  -  0  +  1   + 1
+
+// document.write("a is: " + a)
+// document.write("<br>b is: " + b)
+// document.write("<br>result is: " + result)
+
+// Solution of Question # 3
+
+// var user = prompt("Enter your name:");
+// if (user) {
+
+//     alert("Hello there! Welcome...")
+
+// } else {
+
+//     alert("Hello there! Hope You are good...")
+// }
 
 
+// Solution of Question # 5
 
 
+var user = prompt("Enter a number");
+
+var num = user ? parseInt(user) : 5;
+
+document.write(`<h2> Table of ${num} </h2>`);
+document.write("<ul>");
+
+  for ( var table = 1; table <= 10; table++ ) {
+
+  document.write(`<li>${num} x ${table} = ${num * table}</li>`)
+
+  }
+
+  document.write("</ul>")
