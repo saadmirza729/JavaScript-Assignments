@@ -330,17 +330,56 @@
 // Solution of Question # 5
 
 
-var user = prompt("Enter a number");
+// var user = prompt("Enter a number");
 
-var num = user ? parseInt(user) : 5;
+// var num = user ? parseInt(user) : 5;
 
-document.write(`<h2> Table of ${num} </h2>`);
-document.write("<ul>");
+// document.write(`<h2> Table of ${num} </h2>`);
+// document.write("<ul>");
 
-  for ( var table = 1; table <= 10; table++ ) {
+//   for ( var table = 1; table <= 10; table++ ) {
 
-  document.write(`<li>${num} x ${table} = ${num * table}</li>`)
+//   document.write(`<li>${num} x ${table} = ${num * table}</li>`)
 
-  }
+//   }
 
-  document.write("</ul>")
+//   document.write("</ul>")
+
+// Solution of Question # 6
+
+// var Math = prompt("Enter your subject 'eg. Math '");
+// var English = prompt("Enter your subject 'eg. English '");
+// var Urdu = prompt("Enter your subject 'eg. Urdu '");
+
+// var TotalMarks = 100;
+
+// var ObtainedMarks = prompt("Enter your Math's Obtained Marks ");
+// var ObtainedMarks2 = prompt("Enter your English's Obtained Marks ");
+// var ObtainedMarks3 = prompt("Enter your Urdu's Obtained Marks ");
+
+// document.write("<tr>")
+// document.write("<b><th>Subject</th></b>       ")
+// document.write("<b><td>Total Marks</td></b>       ")
+// document.write("<b><td>Obtained Marks</td></b>       ")
+// document.write("<b><td>Percentage</td></b>       ")
+// document.write("</tr>")
+
+// document.write("<tr>")
+// document.write("<td>" + Math + "</td>       ")
+// document.write("<td>" + TotalMarks + "</td>       ")
+// document.write("<td>" + ObtainedMarks + "</td>       ")
+// document.write("</tr>")
+
+
+// --------------------------------------------------------------------------
+
+// Chapter # 9 - 11 ------
+
+
+var age = 19
+
+if (age < 18) {
+
+  console.log("pass")
+
+}
