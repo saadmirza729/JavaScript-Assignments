@@ -375,11 +375,290 @@
 
 // Chapter # 9 - 11 ------
 
+// Solution of Question # 1
 
-var age = 19
+// var city = prompt("Enter the city" , "Karachi")
 
-if (age < 18) {
+// if(city === "Karachi") {
 
-  console.log("pass")
+//   alert("Welcome to city of lights")
+// }
 
-}
+
+// Solution of Question # 2
+
+// var gender = prompt("Enter your gender");
+
+// if (gender === "male") {
+//   alert("Good morning Sir")
+// }
+
+// if (gender === "female") {
+//   alert("Good morning Ma'am")
+// }
+
+
+// Solution of Question # 3
+
+
+// var signal = prompt("Enter road traffic signal" , "red , yellow or green");
+
+// if (signal === "red") {
+//   alert("Must Stop")
+// }
+
+// if (signal ===  "yellow") {
+//   alert("Ready to move")
+// }
+
+// if (signal === "green") {
+//   alert("Move now")
+// }
+
+
+// Solution of Question # 4
+
+
+// var fuel = prompt("Enter the fuel of a car");
+
+// if (fuel < 0.25) {
+//   alert("Please refill the fuel in your car")
+
+// }else {
+//   alert("Your tank is fill")
+// }
+
+
+
+// Solution of Question # 5
+
+// a)
+
+
+// var a = 4;
+
+// if (++a === 5) {
+//   alert("given condition for variable is true")
+// }
+
+
+// b)
+
+
+// var b = 82;
+
+// if (b++ === 83) {
+//   alert("given condition for variable is true")  not displayed
+// }
+
+
+// c)
+
+// var c = 12;
+
+// if (c++ === 13) {
+//   alert("condition 1 is true")
+// }
+
+// if (c === 13) {
+//   alert("condition 2 is true")
+// }
+
+// if (++c < 14) {
+//   alert("condition 3 is true")
+// }
+
+// if (c === 14) {
+//   alert("condition 4 is true")
+// }
+
+
+// d)
+
+
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = laborCost + materialCost;
+
+// if (totalCost === laborCost + materialCost) {
+//   alert("The cost equals")
+
+
+
+// e)
+
+
+// if (true) {
+//   alert("true");
+// }
+
+// if (flase) {
+//   alert("false");
+// }
+
+
+// f)
+
+
+// if ("car" < "cat") {
+//   alert("car is smaller than cat")
+// }
+
+
+// Solution of Question # 6
+
+
+// var percentage = prompt("Enter your percentage");
+// var obtaintedMarks = prompt("Enter your obtained marks out of 300");
+// var totalMarks = 300;
+// var grade1 = "A-one"
+// var grade2 = "A"
+// var grade3 = "B"
+// var grade4 = "Fail"
+// var remark1 = "Excellent"
+// var remark2 = "Good"
+// var remark3 = "You need to improve"
+// var remark4 = "Sorry"
+
+// if (percentage >= 80) {
+//   document.write("<h1>Marks Sheet</h1><br>");
+//   document.write("<br>Total marks :" + totalMarks);
+//   document.write("<br>Marks obtained :" + obtaintedMarks);
+//   document.write("<br>Percentage :" + percentage);
+//   document.write("<br>Grade :" + grade1);
+//   document.write("<br>Remarks :" + remark1)
+// }
+
+// if (percentage >= 70) {
+//   document.write("<h1>Marks Sheet</h1><br>");
+//   document.write("<br>Total marks :" + totalMarks);
+//   document.write("<br>Marks obtained :" + obtaintedMarks);
+//   document.write("<br>Percentage :" + percentage);
+//   document.write("<br>Grade :" + grade2);
+//   document.write("<br>Remarks :" + remark2)
+// }
+
+// if (percentage >= 60) {
+//   document.write("<h1>Marks Sheet</h1><br>");
+//   document.write("<br>Total marks :" + totalMarks);
+//   document.write("<br>Marks obtained :" + obtaintedMarks);
+//   document.write("<br>Percentage :" + percentage);
+//   document.write("<br>Grade :" + grade3);
+//   document.write("<br>Remarks :" + remark3)
+// }
+// if (percentage < 60) {
+//   document.write("<h1>Marks Sheet</h1><br>");
+//   document.write("<br>Total marks :" + totalMarks);
+//   document.write("<br>Marks obtained :" + obtaintedMarks);
+//   document.write("<br>Percentage :" + percentage);
+//   document.write("<br>Grade :" + grade4);
+//   document.write("<br>Remarks :" + remark4)
+// }
+
+// Solution of Question # 6
+
+// var snum = 7;
+// var num = prompt("Guess a secret number from 1 to 10");
+
+// if (num == 7) {
+//   alert("Bingo! Corect Answer")
+ 
+// }
+
+// if (num < 7 || num > 7 ) {
+//   alert("Wrong Answer")
+// }
+
+
+// Solution of Question # 8
+
+
+// var num = prompt("enter number which can be divided by 3");
+
+// if (num === num) {
+//   alert(num / 9)
+// }
+
+// Solution of Question # 9
+
+
+// var num = +prompt("Enter a number")
+
+// if (num % 2 == 0) {
+//   alert("Even Number")
+// }
+
+// if (num % 2 == 1) {
+//   alert("Odd Number")
+// }
+
+
+// Solution of Question # 10
+
+
+// var T = prompt("Enter the temperature");
+
+// // a)
+
+// if (T > 40) {
+//   alert("It is too hot outside")
+// }
+
+// // b)
+
+// if (T > 30) {
+//   alert("The Weather today is normal")
+// }
+
+// // c)
+
+// if (T > 20) {
+//   alert("Today's weather is cool")
+// }
+
+// // d)
+
+// if (T > 10) {
+//   alert("OMG! Today's weather is so cool")
+// }
+
+
+// Solution of Question # 11
+
+
+// var num1 = +prompt("Enter first number")
+// var operators = prompt("+, -, *, /, and %")
+// var num2 = +prompt("Enter second number")
+
+
+// if (operators === "-") {
+//   alert(num1 - num2)
+// }
+
+// else if (operators === "+") {
+//   alert(num1 + num2)
+// }
+
+// if (operators === "*") {
+//   alert(num1 * num2)
+// }
+
+// if (operators === "/") {
+//   alert(num1 / num2)
+// }
+
+// if (operators === "%") {
+//   alert(num1 % num2)
+// }
+
+// else {
+//   alert("error")
+// }
+
+
+// --------------------------------------------------------------------------
+
+// Chapter # 12 - 13 ------
+
+// Solution of Question # 1
+
