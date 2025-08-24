@@ -651,9 +651,6 @@
 //   alert(num1 % num2)
 // }
 
-// else {
-//   alert("error")
-// }
 
 
 // --------------------------------------------------------------------------
@@ -661,4 +658,243 @@
 // Chapter # 12 - 13 ------
 
 // Solution of Question # 1
+
+
+// Solution of Question # 2
+
+// var userinput = +prompt("input 1st interger number")
+// var userinput2 = +prompt("input 2nd interger number")
+
+// if (userinput > userinput2) {
+//   alert("Number 1 is larger")
+// }
+
+// else if (userinput < userinput2) {
+//   alert("Number 2 is larger")
+// }
+
+// else if (userinput2 === userinput) {
+//   alert("Both are equal")
+// }
+
+// else {
+//   alert("Something is missing")
+// }
+
+
+// Solution of Question # 3
+
+
+// var num = +prompt("Find your number... positive, negative or zero");
+
+// if (num > 0) {
+//   alert("Your number is positive")
+// }
+
+// else if (num < 0) {
+//   alert("Your number is negative")
+// }
+
+// else if (num == 0) {
+//   alert("Your number is zero")
+// }
+
+
+// Solution of Question # 4
+
+
+// var charac = prompt("Enter a character a to z");
+// var v1 = "a", v2 = "e", v3 = "i",  v4 = "o", v5 = "u";
+
+// if ( charac == v1 || charac == v2 || charac == v3 || charac == v4 || charac == v5) {
+//   console.log(charac.length)
+//   alert("true")
+// }else{
+//   alert("false")
+// }
+
+
+// Solution of Question # 5
+
+// var pass = 12345;
+
+// var input1 = +prompt("Enter your password");
+
+
+// if (pass == input1) {
+
+//   var input2 = +prompt("Enter your password again")
+  
+// }else {
+//   alert("Please enter your password")  
+// }
+
+// if (input1 == input2) {
+//   alert("Correct! Your password has matched")
+// }else{
+//   alert("incorrect password")
+// }
+
+// Solution of Question # 6
+
+
+// var greeting;
+
+// var hour = 13;
+
+// if (hour < 18) {
+//   greeting = "Good day"
+// } else {
+//   greeting = "Good evening"
+// }
+
+// console.log(greeting)
+
+
+// Solution of Question # 7
+
+
+// var time = prompt("Enter the time according to 24 hour format like ( 00:00 )");
+
+// if (time === "00:00") {
+//   alert("12am")
+// } 
+// else if (time === "01:00") {
+//   alert("1am")
+// } 
+// else if (time === "02:00") {
+//   alert("2am")
+// } 
+// else if (time === "03:00") {
+//   alert("3am")
+// } 
+// else if (time === "04:00") {
+//   alert("4am")
+// } 
+// else if (time === "05:00") {
+//   alert("5am")
+// } 
+// else if (time === "06:00") {
+//   alert("6am")
+// } 
+// else if (time === "07:00") {
+//   alert("7am")
+// } 
+// else if (time === "08:00") {
+//   alert("8am")
+// } 
+// else if (time === "09:00") {
+//   alert("9am")
+// } 
+// else if (time === "10:00") {
+//   alert("10am")
+// } 
+// else if (time === "11:00") {
+//   alert("11am")
+// } 
+// else if (time === "12:00") {
+//   alert("12pm")
+// } 
+// else if (time === "13:00") {
+//   alert("1pm")
+// } 
+// else if (time === "14:00") {
+//   alert("2pm")
+// } 
+// else if (time === "15:00") {
+//   alert("3pm")
+// } 
+// else if (time === "16:00") {
+//   alert("4pm")
+// } 
+// else if (time === "17:00") {
+//   alert("5pam")
+// } 
+// else if (time === "18:00") {
+//   alert("6pm")
+// } 
+// else if (time === "19:00") {
+//   alert("7pm")
+// } 
+// else if (time === "20:00") {
+//   alert("8pm")
+// } 
+// else if (time === "21:00") {
+//   alert("9pm")
+// } 
+// else if (time === "22:00") {
+//   alert("10pm")
+// } 
+// else if (time === "23:00") {
+//   alert("11pm")
+// } 
+// else if (time === "24:00") {
+//   alert("12am")
+// } 
+// else {
+//   alert("Enter correct time")
+// }
+
+
+// --------------------------------------------------------------------------
+
+// Chapter # 14 - 16 ------
+
+
+// Solution of Question # 1
+
+// literal notation...
+
+// var studentNames = ["ali" , "saad" , "hamza"]
+// console.log(studentNames)
+
+
+// Solution of Question # 2
+
+// Object natation... 
+
+// var studentNames = new Array("ali" , "saad" , "hamza")
+// console.log(studentNames)
+
+
+// Solution of Question # 3
+
+// var arr = [""]
+
+
+// Solution of Question # 4
+
+// var arr = [22 , 30]
+
+
+// Solution of Question # 5
+
+// var arr = [true  , false]
+
+
+// Solution of Question # 6
+
+// var arr = [true , 20 , [] , "" , "Hello"]
+
+
+
+// Solution of Question # 7
+
+
+// var arr = ["SSC" , "HSC" , "BSC" , "BS" , "BCOM" , "MS" , "M.Phil" , "PhD"];
+
+// document.write("<h1>Qualifications</h1><br><br>");
+// document.write("1) " + arr[0]);
+// document.write("<br>2) " + arr[1]);
+// document.write("<br>3) " + arr[2]);
+// document.write("<br>4) " + arr[3]);
+// document.write("<br>5) " + arr[4]);
+// document.write("<br>6) " + arr[5]);
+// document.write("<br>7) " + arr[6]);
+// document.write("<br>8) " + arr[7]);
+
+
+// Solution of Question # 8
+
+
 
