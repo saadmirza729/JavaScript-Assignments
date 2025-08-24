@@ -911,3 +911,95 @@
 // Solution of Question # 9
 
 
+// var colors = ["purple" , "blue" , "black"]
+// document.write(colors)
+
+// // a)
+// var inpt = prompt("Enter a color you would like to add from the start")
+
+// colors.unshift(inpt)
+// document.write("<br><br>" + colors)
+
+// // b)
+// var inpt2 = prompt("Enter a color you would like to add from the end")
+
+// colors.push(inpt2)
+// document.write("<br><br>" + colors)
+
+// // c)
+// var inpt3 = prompt("Enter 1st colors you would like to add from start")
+// colors.unshift(inpt3)
+// var inpt4 = prompt("Enter 2nd colors you would like to add from start")
+// colors.unshift(inpt4)
+// document.write("<br><br>" + colors)
+
+// // d)
+// colors.shift(inpt4)
+// document.write("<br><br>" + colors)
+
+
+
+// --------------------------------------------------------------------------
+
+// Chapter # 17 - 20 ------
+
+
+// Solution of Question # 1
+
+
+// var arr = [[] , [] , []];
+
+
+
+// Solution of Question # 2
+
+// Multi dimentional array...
+
+// var arr = [
+
+//   [0, 1, 2, 3], 
+//   [1, 0, 1, 2], 
+//   [2, 1, 0, 1]
+// ]
+
+// document.write(arr[0])
+// document.write("<br>" + arr[1])
+// document.write("<br>" + arr[2])
+
+
+// Solution of Question # 3
+
+
+// for (var i = 1; i <= 10; i++) {
+//   document.write(i)
+// }
+
+
+// Solution of Question # 4
+
+
+// var num = +prompt("Enter a table number");
+// var lth = +prompt("Enter table length")
+
+// for (var i = 1; i <= lth; i++) {
+//   document.write(num + " x " + i + " = " + num * i + "<br>" )
+// } 
+
+
+// Solution of Question # 5
+
+
+// var arr = ["apple" , "banana" , "mango" , "orange" , "strawberry"];
+
+// for (var i = 0; i < arr.length; i++) {
+//   document.write(arr[i] + "<br>")
+// }
+// document.write("<br>")
+// var arr2 = [0 , 1 , 2 , 3 , 4];
+
+// for (var i = 0; i <= arr2.length; i++) {
+//   document.write("Element at index " + i + " is apple <br>")
+// } 
+
+
+// Solution of Question # 6
