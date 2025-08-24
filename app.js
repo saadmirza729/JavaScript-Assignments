@@ -897,4 +897,17 @@
 // Solution of Question # 8
 
 
+// var stu = ["Micheal" , "John" , "Tony"]
+
+// var score = [320 , 230 , 480]
+
+// var per = [320/500*100 , 230/500*100 , 480/500*100]
+
+// document.write("Score of " + stu[0] + " is " + score[0] + ". Percentage: " + per[0] + "%")
+// document.write("<br>Score of " + stu[1] + " is " + score[1] + ". Percentage: " + per[1] + "%")
+// document.write("<br>Score of " + stu[2] + " is " + score[2] + ". Percentage: " + per[2] + "%")
+
+
+// Solution of Question # 9
+
 
