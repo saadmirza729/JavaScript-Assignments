@@ -1003,3 +1003,54 @@
 
 
 // Solution of Question # 6
+
+// a)
+// var counting = [1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14 , 15];
+
+// for (var i = 0; i <= 0; i++) {
+//   document.write("<h1>Counting: </h1>" + counting + "<br>")
+// }
+
+// // b)
+// var reCounting = [10 , 9 , 8 , 7 , 6 ,  5 , 4 , 3 , 2 , 1];
+
+// for (var i = 0; i <= 0; i++) {
+//   document.write("<h1>Reverse Counting: </h1>" + reCounting + "<br>")
+// }
+
+// // c)
+// var evCounting = [0 , 2 , 4 , 6 , 8 , 10 , 12 , 14 , 16 , 18 , 20];
+
+// for (var i = 0; i <= 0; i++) {
+//   document.write("<h1>Even Counting: </h1>" + evCounting + "<br>")
+// }
+
+// // d)
+// var oddCounting = [1 , 3 , 5 , 7 , 9 , 11 , 13 , 15 , 17 , 19];
+
+// for (var i = 0; i <= 0; i++) {
+//   document.write("<h1>Odd Counting: </h1>" + oddCounting + "<br>")
+// }
+
+// // e)
+// var seriesCounting = ["2k" , "4k" , "6k" , "8k" , "10k" , "12k" , "14k" , "16k" , "18k" , "19k"];
+
+// for (var i = 0; i <= 0; i++) {
+//   document.write("<h1>Series: </h1>" + seriesCounting + "<br>")
+// }
+
+// Solution of Question # 7
+
+// var inpt = prompt("Welcome to ABC Bakery. What do you want to order")
+// var arr = ["cake" , "apple pie" , "cookie" , "chips" , "patties"];
+
+// if (inpt == arr(0)) {
+//   document.write("Yes this item is available")
+// } else {
+//   document.write("This item is not available")
+// }
+
+
+//  Solution of Question # 8
+
+
