@@ -1054,3 +1054,184 @@
 //  Solution of Question # 8
 
 
+
+// --------------------------------------------------------------------------
+
+// Chapter # 21 - 25 ------
+
+//  Solution of Question # 1
+
+// var firstName = prompt("Enter your first name");
+// var lastName = prompt("Enter your last name")
+// var fullName = firstName + " " + lastName;
+
+// alert(fullName)
+
+
+//  Solution of Question # 2
+
+
+// var mobilePhone = prompt("Enter mobile model name");
+
+// console.log(mobilePhone.length)
+
+
+//  Solution of Question # 3
+
+
+// var str = "pakistan"
+
+// console.log(str.indexOf("n"))
+
+
+//  Solution of Question # 4
+
+
+// var str = "Hello World"
+
+// console.log(str.lastIndexOf("l"))
+
+
+//  Solution of Question # 5
+
+
+// var str = "Pakisani"
+
+// console.log(str.charAt(3))
+
+
+//  Solution of Question # 6
+
+
+// var firstName = prompt("Enter your first name");
+// var lastName = prompt("Enter your last name")
+// // var fullName = firstName + " " + lastName;
+
+// console.log(firstName.concat(lastName))
+
+
+//  Solution of Question # 7
+
+
+// var city = "Hyderabad";
+
+// console.log(city.replace("Hyderabad" , "Islamabad"))
+
+
+//  Solution of Question # 8
+
+
+// var message = "Ali and Sami are best friends. They play cricket and football together";
+
+// console.log(message.replaceAll("and" , "&"))
+
+
+//  Solution of Question # 9
+
+
+// var strNum = "472";
+
+// console.log("Value ===> " .concat(strNum))
+// console.log("Type ===> " .concat(typeof strNum))
+
+// console.log("Value ===> " .concat(parseInt(strNum)))
+// console.log("Type ===> " .concat(typeof parseInt(strNum)))
+
+
+//  Solution of Question # 10
+
+
+// var userIn = prompt("");
+
+// console.log("User Input ===> " + userIn);
+// console.log("Upper Case ===> " + userIn.toUpperCase());
+
+
+//  Solution of Question # 11
+
+
+// var userIn = prompt("");
+
+// console.log("User Input ===> " + userIn);
+// console.log("Title Case ===> " + userIn.charAt("0").toUpperCase() + userIn.slice("1"));
+
+
+//  Solution of Question # 12
+
+
+// var num = 25.36;
+
+// console.log("Number ===> " + num);
+// console.log("Result ===> " + num.toString().replace("." , ""));
+
+
+//  Solution of Question # 14
+
+
+// let arr = ["cake" , "apple pie" , "cookie" , "chips" , "patties"];
+// let userInput = prompt("")
+
+// if (userInput == arr[0] || userInput == arr[1] || userInput == arr[2] || userInput == arr[3] || userInput == arr[4]) {
+
+// document.write(userInput + " is available at index " + arr.indexOf(userInput) + " in our bakery")
+
+// } else {
+// document.write("We are sorry. " + userInput + " is not available in our bakery")
+// }
+
+
+//  Solution of Question # 15
+
+
+// let passInput = prompt("")
+// let pass1 = "abcdefghijklmnopqrstuvwxyz"
+// let pass2 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+// let pass3 = "0123456789"
+
+// if (passInput == pass1 && passInput == pass2 && passInput == pass3) {
+
+//   for (let i = 0; i < 6; i++) {
+      
+//     console.log(passInput(i))
+//   }
+
+// } else {
+//   alert("Incorrect Paasword")
+// }
+
+
+//  Solution of Question # 16
+
+
+//let university = "university of karachi";
+
+//console.log(university.split());
+
+
+//  Solution of Question # 17
+
+
+//let userInput = "Pakistan";
+
+//console.log(userInput.length -1);
+//console.log(userInput.charAt(7));
+
+//  Solution of Question # 16
+
+
+// --------------------------------------------------------------------------
+
+
+// Chapter # 26 - 30 ------
+
+//  Solution of Question # 1
+
+
+
+
+
+
+
+
+
+
