@@ -1227,6 +1227,105 @@
 //  Solution of Question # 1
 
 
+// var userInput = +prompt()
+
+// // console.log(userInput)
+
+// var num = userInput.toFixed(3)
+// console.log(num)
+
+// var roundOf = Math.round(num)
+// console.log(roundOf)
+
+// var floor = Math.floor(num)
+// console.log(floor)
+
+// var ceil = Math.ceil(num)
+// console.log(ceil)
+
+
+//  Solution of Question # 2
+
+// For Negative floating point
+
+// var userInput = +prompt()
+
+// // console.log(userInput)
+
+// var num = userInput.toFixed(3)
+// console.log(num)
+
+// var roundOf = Math.round(num)
+// console.log(roundOf)
+
+// var floor = Math.floor(num)
+// console.log(floor)
+
+// var ceil = Math.ceil(num)
+// console.log(ceil)
+
+
+//  Solution of Question # 3
+
+
+// var num = -20;
+
+// var absoluteValue = Math.abs(num)
+
+// console.log("The absolute value of -20 is ===> " + absoluteValue)
+
+
+//  Solution of Question # 4
+
+
+// var dice = Math.random()*6
+// var dice2 = Math.ceil(dice)
+// console.log("Dice value ===> " + dice2)
+
+
+//  Solution of Question # 5
+
+
+// var headTails = Math.random()*2
+// var headTails2 = Math.ceil(headTails)
+// console.log("Head & Tails ===> " + headTails2)
+
+
+//  Solution of Question # 6
+
+// var random1 = Math.random()*100
+// var random2 = Math.ceil(random1)
+// console.log(random2)
+
+
+//  Solution of Question # 7
+
+
+// var userInput = prompt()
+// var convertInt = parseInt(userInput)
+// document.writeln("The weight of user is " + convertInt )
+
+
+//  Solution of Question # 8
+
+
+// var secretNum = 7;
+
+// var userInput = +prompt("Enter the number between 1 to 10");
+
+// if (userInput == secretNum) {
+//     alert("Congrats")
+
+// } else {
+
+//   alert("Wrong")
+// }
+
+
+
+
+
+
 
 
 
